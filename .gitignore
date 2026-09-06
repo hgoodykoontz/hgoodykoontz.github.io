@@ -1,0 +1,9 @@
+.env
+.env.*
+*.key
+*.pem
+secrets*
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db

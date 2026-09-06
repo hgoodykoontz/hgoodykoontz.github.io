@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heather Goodykoontz</title>
+<meta name="description" content="Playing with ideas on public data.">
+<style>
+  :root{
+    --bg:#fbfaf8; --panel:#ffffff; --ink:#1a1a1a; --muted:#5f5c58;
+    --line:#e4e0da; --accent:#8a5a2b; --accent-soft:#f3ece3;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#141311; --panel:#1c1b19; --ink:#ece9e4; --muted:#9c968d;
+      --line:#2e2c28; --accent:#d3a06a; --accent-soft:#26221d;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:72px 24px 96px}
+  header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:40px}
+  h1{font-size:clamp(28px,5vw,38px);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
+  .role{color:var(--muted);font-size:15px;margin:0}
+  .lede{font-size:18px;line-height:1.6;margin:28px 0 0}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);
+    margin:48px 0 16px;font-weight:600}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px 24px}
+  .card h3{margin:0 0 10px;font-size:17px;letter-spacing:-.01em}
+  .card p{margin:0 0 14px;color:var(--muted);font-size:15px}
+  .card p:last-child{margin-bottom:0}
+  .tag{display:inline-block;font-size:12px;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:4px 11px;
+    font-weight:600;margin-bottom:12px}
+  ul{margin:0;padding-left:20px;color:var(--muted);font-size:15px}
+  li{margin-bottom:8px}
+  li strong{color:var(--ink);font-weight:600}
+  footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Heather Goodykoontz</h1>
+    <p class="role">Data Science &amp; Analytics · Raleigh, NC</p>
+    <p class="lede">Over fifteen years helping people solve problems with data.
+    This site is where I play with ideas on public data.</p>
+  </header>
+
+  <h2>Currently</h2>
+  <div class="card">
+    <span class="tag">Building</span>
+    <h3>Document Data Challenge</h3>
+    <p>Document data is still a challenge in the real world, and it often requires a
+    multifaceted approach.</p>
+    <p>Using commercial loan agreements from SEC EDGAR — real, public, and frequently
+    ugly — to demonstrate looking for the known, looking for the unknown, and keeping
+    a human in the loop.</p>
+  </div>
+
+  <h2>Background</h2>
+  <ul>
+    <li><strong>Staff Data Scientist</strong>, Live Oak Bank</li>
+    <li><strong>Data Scientist</strong>, DoD Office of Inspector General</li>
+    <li><strong>Senior Manager, Consulting</strong>, SAS Institute — 12 years</li>
+    <li><strong>Analytic Engineer</strong>, Houston Astros</li>
+    <li><strong>M.S. Analytics</strong>, NC State · <strong>B.S. Applied Mathematics</strong></li>
+  </ul>
+
+  <footer>
+    More coming. Updated September 2026.
+  </footer>
+
+</div>
+</body>
+</html>
